@@ -5,6 +5,15 @@ import PropTypes from 'prop-types';
 import { Layout, Container, Content } from 'layouts';
 import { TagsBlock, Header, SEO } from 'components';
 import '../styles/prism';
+import { DiscussionEmbed } from 'disqus-react';
+
+// Disqus configuration object.
+const disqusConfig = {
+  shortname: process.env.REACT_APP_GATSBY_DISQUS_NAME,
+  config: { identifier: "Who are you?"},
+}
+
+console.log(disqusConfig);
 
 const SuggestionBar = styled.div`
   display: flex;
@@ -38,6 +47,7 @@ const Post = ({ data, pageContext }) => {
       <Container>
         <Content input={html} />
         <TagsBlock list={tags || []} />
+        <DiscussionEmbed {...disqusConfig}></DiscussionEmbed>
       </Container>
       <SuggestionBar>
         <PostSuggestion>
