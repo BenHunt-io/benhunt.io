@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import {DiGithubAlt} from 'react-icons/di'
+import {FaTwitter} from 'react-icons/fa'
 
 const Wrapper = styled.footer`
   position: relative;
@@ -24,9 +26,15 @@ const Text = styled.div`
 const Footer = () => (
   <Wrapper>
     <Text>
-      <span>
-        benhunt.io &#9400; 2020
-      </span>
+      <div>
+        <span>
+          benhunt.io &#9400; 2020
+        </span>
+      </div>
+      <a href="https://github.com/BenHunt-io?tab=repositories">
+        <DiGithubAlt css={{width: 25, height: 25}}/>
+      </a>
+      <FaTwitter css={{width: 25, height: 25}}> </FaTwitter>
     </Text>
   </Wrapper>
 );
