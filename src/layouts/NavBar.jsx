@@ -36,6 +36,7 @@ const NavBar = () => (
       <Link to="/about">About</Link>
       <Link to="/invest">Invest</Link>
       <Link to="/contact">Contact</Link>
+      <Link to="/resume">Resume</Link>
     </Nav>
   </Headroom>
 );
