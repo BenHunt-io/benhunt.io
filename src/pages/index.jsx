@@ -6,10 +6,6 @@ import styled from '@emotion/styled';
 import { Header, PostList} from 'components';
 import DynamicText from 'components/DynamicText';
 import { Layout } from 'layouts';
-import { GTMNoScript, GTMScript} from 'components/googletagmanager';
-
-// Start Google Tag Tracking Suppose to but in <script> tag inside head, but this is implicitly in head.
-GTMScript();
 
 const PostWrapper = styled.div`
   display: flex;
@@ -40,7 +36,6 @@ const Index = ({ data }) => {
   const { edges } = data.allMarkdownRemark;
   return (
     <Layout>
-      <GTMNoScript/>
       <Helmet title={'Ben Hunt'} />
       <Header title="Ben Hunt">
         <DynamicText textList={quotes}/>
