@@ -8,12 +8,16 @@ import '../styles/prism';
 import { DiscussionEmbed } from 'disqus-react';
 
 // Disqus configuration object.
-const disqusConfig = {
+const postOneDisqusConfig = {
   shortname: process.env.REACT_APP_GATSBY_DISQUS_NAME,
   config: { identifier: "Who are you?"},
 }
 
-console.log(disqusConfig);
+// Disqus configuration object.
+const postTwoDisqusConfig = {
+  shortname: process.env.REACT_APP_GATSBY_DISQUS_NAME,
+  config: { identifier: "In defense of crypto?"},
+}
 
 const SuggestionBar = styled.div`
   display: flex;
@@ -34,6 +38,7 @@ const Post = ({ data, pageContext }) => {
   const {date, title, tags, path, description} = frontmatter
   const image = frontmatter.cover.childImageSharp.fluid;
 
+  // Ugly way to conditionally render disqus by post.
   return (
     <Layout>
       <SEO
@@ -47,7 +52,16 @@ const Post = ({ data, pageContext }) => {
       <Container>
         <Content input={html} />
         <TagsBlock list={tags || []} />
-        <DiscussionEmbed {...disqusConfig}></DiscussionEmbed>
+
+        { (title == "Who are you?" && 
+          (<DiscussionEmbed {...postOneDisqusConfig}></DiscussionEmbed>))
+
+          ||
+
+          (title == "In defense of crypto" && 
+          (<DiscussionEmbed {...postTwoDisqusConfig}></DiscussionEmbed>))
+        }
+
       </Container>
       <SuggestionBar>
         <PostSuggestion>
@@ -107,3 +121,5 @@ export const query = graphql`
     }
   }
 `;
+
+console.log(`GraphQL Query: ${JSON.stringify(query, null, 2)}`);

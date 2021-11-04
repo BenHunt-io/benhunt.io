@@ -27,6 +27,30 @@ module.exports = {
               linkImagesToOriginal: true,
             },
           },
+
+          // Needed to embed videos in markdown
+          {
+            resolve: `@raae/gatsby-remark-oembed`,
+            options: {
+              // usePrefix defaults to false
+              // usePrefix: true is the same as ["oembed"]
+              usePrefix: ["oembed", "video"],
+              providers: {
+                include: ["YouTube"],
+                // Important to exclude providers
+                // that adds js to the page.
+                // If you do not need them.
+                exclude: ["Reddit"],
+                settings: {
+                  YouTube: {
+                    width: 854,
+                    height: 480,
+                  }
+                }
+              },
+            },
+          },
+          
           'gatsby-remark-prismjs',
         ],
       },

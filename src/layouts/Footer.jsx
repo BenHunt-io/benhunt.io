@@ -25,7 +25,7 @@ const Footer = () => (
   <Wrapper>
     <Text>
       <span>
-        benhunt.io &#9400; 2020
+        benhunt.io &#9400; {new Date().getFullYear()}
       </span>
     </Text>
   </Wrapper>

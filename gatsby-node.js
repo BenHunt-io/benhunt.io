@@ -1,13 +1,17 @@
+// These logs are only seen in the server console when the post is being generated.
 const path = require('path');
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
+  // Returns promise to generate pages
   return new Promise((resolve, reject) => {
     const postTemplate = path.resolve('src/templates/post.jsx');
     const tagPage = path.resolve('src/pages/tags.jsx');
     const tagPosts = path.resolve('src/templates/tag.jsx');
+    console.log("In Promise");
 
+    // Resolve the promise by querying data from graphql and then generating pages from it
     resolve(
       graphql(
         `
@@ -28,6 +32,7 @@ exports.createPages = ({ graphql, actions }) => {
           }
         `
       ).then(result => {
+        console.log(`GraphQL result ${JSON.stringify(result, null, 2)}`);
         if (result.errors) {
           return reject(result.errors);
         }

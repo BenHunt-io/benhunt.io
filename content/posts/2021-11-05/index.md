@@ -11,6 +11,8 @@ In this blog, I'll be addressing the mainstream view of the crypto space and the
 
 He offered me a rebuttal and I accepted.
 
+[Crypto Parody Video](https://www.youtube.com/watch?v=GUs5y9leCyA)
+
 ## Crypto parody thesis
 
 My takeaways from the video:
@@ -44,7 +46,7 @@ Like all new technologies that promise a revolutionary new world, there is a lot
 
 ## The dollar is strong
 
-Many of the critics of Bitcoin live in financially priveledged areas of the world which only compromise 13% of the population. To have a relatively stable currency with relatively good monetary policies, is the exception rather than the norm. The other 87% of the world live under much different conditions being born into autocratic control or into significantly more instable currencies. The world doesn't run on democracy. The world is operated under a select few individuals who get to pull the levers and make the decisions. 4.3 billion people live under authoritarianism. 1.2 billion people live under double or triple digit inflation. Further, 56 distinct hyper inflation events have occured between 1975 and 2009 with none happening under currencies constrained by a commodity standard. How can your quality of life improve when you're financially in a constant uphill battle that's growing faster than you can climb it. You're stuck at the bottom with an unpredictable and untrustworthy monetary policy with no way to climb out and build wealth. 
+Many of the critics of Bitcoin live in financially priveledged areas of the world which only compromise 13% of the population. To have a relatively stable currency with relatively good monetary policies, is the exception rather than the norm. The other 87% of the world live under much different conditions being born into autocratic control or into significantly more instable currencies. The world doesn't run on democracy. The world is operated under a select few individuals who get to pull the levers and make the decisions. 4.3 billion people live under authoritarianism.[1] 1.3 billion people live under double or triple digit inflation. Further, 56 distinct hyper inflation events have occured between 1975 and 2009 with none happening under currencies constrained by a commodity standard. How can your quality of life improve when you're financially in a constant uphill battle that's growing faster than you can climb it. You're stuck at the bottom with an unpredictable and untrustworthy monetary policy with no way to climb out and build wealth. 
 
 Contrasting the fiat currencies of today, bitcoin offers a transparent, predictable, borderless, democratic, incorruptable and censorship resistant means to build weath. All you need is an internet connection, which increasingly is the case. 
 
