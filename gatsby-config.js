@@ -40,13 +40,8 @@ module.exports = {
                 // Important to exclude providers
                 // that adds js to the page.
                 // If you do not need them.
-                exclude: ["Reddit"],
-                settings: {
-                  YouTube: {
-                    width: 854,
-                    height: 480,
-                  }
-                }
+                exclude: ["Reddit"]
+          
               },
             },
           },
