@@ -129,7 +129,6 @@ Darknet market activity is a more difficult problem to address. How can you prev
 You kill the demand. The darnet market is a market afterall and if there is no demand, you have no market. I have split the traded goods and services of the black market as listed by wikipedia in the following two categories:
 
 **Things that should have a legal market**
-- Prostitution
 - Personal information
 - Illegal drugs
 - Sex toys
@@ -152,7 +151,7 @@ You kill the demand. The darnet market is a market afterall and if there is no d
 - Animals and animal products (Non domesticated animals. Endangered animals and etc)
 - Biological organs
 
-I would argue that there should be a competitive, regulated, and open market for the top items. Sex and drugs should not be illegal, they should be regulated. Currency would not be an item listed in the black market if imperfect currencies weren't in use, currencies that are artificially pegged to something. There is no black market for crypto exchange as you cannot acquire crypto at artificially low prices. The market for personal information can be eliminated as we advance globally, our means of identification. Incorruptable biometric identification can mute the market for counterfeit ids. Lastly, while not the top category, biological organs only exist in the black market so as long as we cannot manufacture them and we are rapidly approaching a time in which we could.
+I would argue that there should be a competitive, regulated, and open market for the top items. They should not be illegal, they should be regulated. Currency would not be an item listed in the black market if imperfect currencies weren't in use, currencies that are artificially pegged to something. There is no black market for crypto exchange as you cannot acquire crypto at artificially low prices. The market for personal information can be eliminated as we advance globally, our means of identification. Incorruptable biometric identification can mute the market for counterfeit ids. Lastly, while not the top category, biological organs only exist in the black market so as long as we cannot manufacture them and we are rapidly approaching a time in which we could.
 
 The latter items prove to be a more difficult problem to solve. These categories represent things that should not have an open market and are inherently bad things. I define bad as things that are not mutually consentual between the parties involved in the transaction. When one possesses illegally acquired movies and sells them, they involve the buyer, the seller, and the creator. The creator is harmed in this transaction by the seller profiting off of their illegally acquired time and energy. The black market for weapons puts the public in danger and etc.
 
